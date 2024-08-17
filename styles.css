@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+  font-family: 'Archivo Black', Archivo Black;    
+background-color: f0e7ef; /* Tannish background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.centered-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FFFFFF; /* Dark background for contrast */
+    color: black; /* Light text color */
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Services Grid */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.service {
+    background-color: #797c86;
+    padding: 20
+
+textarea {
+    width: 100%; /* Makes the textarea take up the full width of its container */
+    height: 300px; /* Sets a taller height for more content visibility */
+    padding: 10px; /* Adds padding inside the textarea for better readability */
+    font-size: 16px; /* Increases font size for easier reading */
+    border: 1px solid #ccc; /* Sets a subtle border */
+    border-radius: 5px; /* Rounds the corners slightly */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's width and height */
+}
+
+#services {
+    background-color: #f9f9f9; /* Light background color to distinguish the section */
+    padding: 40px 20px; /* Adds space inside the section */
+    margin: 20px 0; /* Adds space above and below the section */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+#services h2 {
+    text-align: center; /* Centers the heading */
+    font-size: 28px; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #333; /* Darker text color */
+}
+
+#services ul {
+    list-style-type: disc; /* Uses a disc as the bullet point */
+    padding-left: 20px; /* Indents the list from the left */
+}
+
+#services li {
+    font-size: 18px; /* Slightly larger font size for readability */
+    line-height: 1.6; /* Adds space between lines */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 10px; /* Adds space between each list item */
+}
+
